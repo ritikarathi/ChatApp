@@ -1,4 +1,7 @@
 package com.chat.app.config;
 
-public class WebSocketConfig {
+import org.springframework.web.socket.config.annotation.WebSocketMessageBrokerConfigurer;
+
+public class WebSocketConfig implements WebSocketMessageBrokerConfigurer {
+
 }
