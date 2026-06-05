@@ -13,7 +13,7 @@ public class ChatController {
     public ChatMessage sendMessage(ChatMessage message){
         return message;
     }
-    @GetMapping("Chat")
+    @GetMapping("chat")
     public String chat(){
         return "chat";
     }
